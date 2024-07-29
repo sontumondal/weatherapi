@@ -1,0 +1,44 @@
+
+.weather-app {
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+}
+
+.weather-details,
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast-day {
+    margin-bottom: 10px;
+}
+
+.map-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
